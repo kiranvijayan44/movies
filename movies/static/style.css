@@ -1,0 +1,14 @@
+body {
+	background-image: linear-gradient(to right, rgb(255 0 129 / 52%), #0d6efd);
+}
+.container{
+    text-align: left;
+    color: #fff;
+    background-color: #0000008f;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+}
+.cardbody{
+    background-image: linear-gradient(to right, rgb(255 0 129 / 52%),)}

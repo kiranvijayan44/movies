@@ -1,0 +1,10 @@
+{% extends 'base.html'  %}
+{% block body %}
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <h1>Alert</h1><br><br>
+    <h4>Do you want to delete Movie from your movie list?</h4><br>
+
+    <input type="submit" class="btn btn-danger" value="Yes!">
+</form>
+{% endblock %}
